@@ -3,7 +3,7 @@
 ![france](france.jpg)
 
 
-Our project consisted in extracting this data, cleaning the two datasets, and loading tables into our MySQL database.
+Our project consisted in extracting different datasets on soccer, cleaning the two datasets, and loading tables into our MySQL database.
 
 
 ## Technologies used:
