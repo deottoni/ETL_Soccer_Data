@@ -14,17 +14,17 @@ Our project consisted in extracting this data, cleaning the two datasets, and lo
 - MySQL
 
 
-## Extract
+## Extract:
 We have decided to extract two soccer datasets in csv format, one with individual [data on the players](https://www.kaggle.com/karangadiya/fifa19), and the other has [data on the 2018 FIFA World cup squads](https://www.kaggle.com/cclayford/2018-fifa-world-cup-squads). 
 
 
-## Transform
+## Transform:
 We have used pandas to create the dataframes from the csv files, and clean the data. Most of the 'transformation' came from dropping columns, changing data types, removing characters cells so we could perform math operations if needed (i.e. {"weight":"78kg"} to {"weight":"78"}), as well as renaming columns so that we could merge the two dataframes.
 
 ![transform](transform.png)
 
 
-## Load
+## Load:
 We used MySQL workbench to create the database (after some time of "running against the wall" due to encoding problems). 
 
 ![sql query](mysql_queries.png)
